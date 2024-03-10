@@ -30,14 +30,13 @@ a {
 
 
 body{
-    overflow-x: hidden;
     font-family: Roboto;
     font-size: 10px;
     font-weight: 400;
     color:black;
 }
 
-/HEADER/
+/*HEADER*/
 header a img{
     width: 52.19px;
     height: 30.75px;
@@ -47,9 +46,9 @@ header{
     padding: 36px 0px 0px 35px;
 }
 
-/MAIN/
+/*MAIN*/
 
-/section-1/
+/*section-1*/
 
 main section.section-1{
     margin: 45px auto 8px auto;
@@ -73,7 +72,7 @@ main section.section-1 div.section-content-1 ul li img{
     height: 9.79px;
 }
 
-/section-2/
+/*section-2*/
 
 main section.section-2 div.section-content-2{
     display: flex;
@@ -112,7 +111,7 @@ main section.section-2 div.section-content-2 #ellips-1 {
     z-index: -1;
 }
 
-/section-3/
+/*section-3*/
 
 main section.section-3 div.section-content-3{
     max-width: 500px;
@@ -144,7 +143,7 @@ main section.section-3 div.section-content-3 span{
     margin-top: 6.92px;
 }
 
-/section-4/
+/*section-4*/
 
 main section.section-4{
     margin: 75.06px auto 0px auto;
@@ -187,7 +186,7 @@ main section.section-4 div.section-content-4 #ellips-2 {
     margin-top: -31px;
 }
 
-/section-5/
+/*section-5*/
 
 main section.section-5{
     margin-top: 45.71px;
@@ -217,7 +216,7 @@ main section.section-5 div.section-content-5 ul li p:first-child{
     line-height: 16px;
 }
 
-/section-6/
+/*section-6*/
 
 main section.section-6{
     margin-top: 68px;  
@@ -248,7 +247,7 @@ main section.section-6 div.section-content-6 ul li p:first-child{
     color: #1E4681;
 }
 
-/section-7/
+/*section-7*/
 
 main section.section-7{
     margin-top: 73px;
@@ -277,7 +276,7 @@ main section.section-7 div.section-content-7 ul li{
     line-height: 18px;
 }
 
-/section-8/
+/*section-8*/
 
 
 main section.section-8 div.section-content-8 h2{
@@ -310,13 +309,6 @@ main section.section-8 div.section-content-8 div.course-program-grid div.module{
 main section.section-8 div.section-content-8 div.course-program-grid div.module img{
     width: 186px;
 }
-main section.section-8 div.section-content-8 div.course-program-grid div.module{
-    transform: translateY(-10px);
-    -webkit-box-shadow:10px 10px 100px -25px rgb(0,0,0,0.75);
-    -moz-box-shadow:10px 10px 100px -25px rgb(0,0,0,0.75);
-    box-shadow: 10px 10px 100px -25px rgb(0,0,0,0.75);
-}
-
 
 
 main section.section-8 div.section-content-8 div.course-program-grid div.module div h3{
@@ -333,7 +325,14 @@ main section.section-8 div.section-content-8 div.course-program-grid div.module 
     margin-left: 8.85px;
 }
 
-/section-9/
+main section.section-8 div.section-content-8 div.course-program-grid div.module:hover {
+    transform: translateY(-10px);
+    -webkit-box-shadow: 10px 10px 100px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 100px -25px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 100px -25px rgba(0,0,0,0.75);
+}
+
+/*section-9*/
 
 main section.section-9{
     margin-top: 47.16px;
@@ -387,7 +386,7 @@ main section.section-9 div.section-content-9 div.review div.reviewer div a img{
 
 }
 
-/section-10/
+/*section-10*/
 
 main section.section-10{
     background: #9DC9C8;
@@ -435,7 +434,7 @@ main section.section-10 div.section-content-10 div.needs-block div p:last-child{
 
 }
 
-/footer/
+/*footer*/
 
 footer{
     background-color: #000000;
@@ -447,38 +446,38 @@ footer div.footer-content{
     padding:23.3px 0px 10px 56px;
 }
 
-footer div.footer-content img{
+footer div.footer-content div.main-info-footer div.icon-and-social img{
     width: 53.59px;
     height: 31.69px;
 }
 
-footer div.footer-content ul.social-media{
+footer div.footer-content div.main-info-footer div.icon-and-social ul.social-media{
     display: flex;
     gap:8.39px;
     margin-bottom: 40px;
 }
 
-footer div.footer-content ul.social-media li a img{
+footer div.footer-content div.main-info-footer div.icon-and-social ul.social-media li a img{
    width: 16px;
 }
 
-footer div.footer-content ul.contacts{
+footer div.footer-content div.main-info-footer div.contacts ul.contacts{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap:10px;
     margin-bottom: 49px;
 }
-footer div.footer-content ul.contacts li{
+footer div.footer-content div.main-info-footer div.contacts ul.contacts li{
     display: flex;
 }
 
-footer div.footer-content ul.contacts li p{
+footer div.footer-content div.main-info-footer div.contacts ul.contacts li p{
     font-size: 12px;
     line-height: 12px;
 }
 
-footer div.footer-content ul.contacts li img{
+footer div.footer-content div.main-info-footer div.contacts ul.contacts li img{
     width: 12.58px;
     height: 12.58px;
     margin-right: 8.39px;
@@ -501,8 +500,13 @@ footer div.footer-content ul.contacts li img{
 /*     TABLET   CSS    ADAPTIVE    */
 
 @media screen and (min-width: 991px) and (max-width: 1280px){
+
+
+    
 body {
     font-size: 12px;
+    width: 100%;
+
 }
 
 /*       СТИЛЬ ХЭДЭРА       */
@@ -510,7 +514,6 @@ body {
 header {
     padding: 22px 700px 0px 70px;
     width: 100%;
-    
 }
 
 header a img {
@@ -522,7 +525,6 @@ header a img {
 /*       SECTION-1          */
 
 main section.section-1 {
-
     margin:56px auto 0px 70px;
 }
 
@@ -533,6 +535,7 @@ main section.section-1 div.section-content-1{
 
 main section.section-1 div.section-content-1 ul {
     gap:14px;
+
 }
 
 main section.section-1 div.section-content-1 ul li {
@@ -810,7 +813,6 @@ main section.section-8 div.section-content-8 div.course-program-grid div.module 
 }
 
 
-
 /*    SECTION-9    */
 
 main section.section-9 {
@@ -924,42 +926,44 @@ footer div.footer-content {
     display: flex;
     flex-direction: column;
     padding: 29px 70px 13px 70px;
-    position: relative;
     gap: 17px;
     width: 100%;
     
 }
 
-footer div.footer-content img {
+footer div.footer-content div.main-info-footer {
+    display: flex;
+    gap: 72%;
+}
+
+footer div.footer-content div.main-info-footer div.icon-and-social img {
     width: 66px;
     height: 39px;
 }
 
-footer div.footer-content ul.social-media {
+footer div.footer-content div.main-info-footer div.icon-and-social ul.social-media {
     display: flex;
     gap: 10px;
     margin-bottom: 0px;
 }
 
-footer div.footer-content ul.social-media img {
+footer div.footer-content div.main-info-footer div.icon-and-social ul.social-media img {
     width: 20px;
     height: 20px;
 }
 
-footer div.footer-content ul.contacts {
+footer div.footer-content div.main-info-footer div.contacts ul.contacts {
     justify-content: unset;
     gap: 14px;
-    position: absolute;
-    left: 565px;
     margin-bottom: 0px;
 }
 
-footer div.footer-content ul.contacts li {
+footer div.footer-content div.main-info-footer div.contacts ul.contacts li {
     align-items: center;
     gap: 13px;
 }
 
-footer div.footer-content ul.contacts li a img {
+footer div.footer-content div.main-info-footer div.contacts ul.contacts li a img {
     width: 15px;
     height: 15px;
     margin-right: 0px;
@@ -990,7 +994,7 @@ footer div.footer-content ul.contacts li a img {
     
     header {
         padding: 22px 700px 0px 121px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
         
     }
@@ -1005,7 +1009,7 @@ footer div.footer-content ul.contacts li a img {
     
     main section.section-1 {
         padding:100px 0px 0px 121px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;   
     }
     
@@ -1035,7 +1039,7 @@ footer div.footer-content ul.contacts li a img {
         flex-direction: row;
         justify-content: space-between;
         gap: 81px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
         
     }
@@ -1068,8 +1072,8 @@ footer div.footer-content ul.contacts li a img {
     /*     SECTION-3     */
     
     main section.section-3 div.section-content-3 {
-        padding: 0px 0px 0px 0px;
-        width: 1280px;
+        padding: 0px 0px 0px 409px;
+        max-width: 1440px;
         margin: auto;
     }
     
@@ -1106,7 +1110,7 @@ footer div.footer-content ul.contacts li a img {
         padding: 173px 153px 0px 121px;
         flex-direction: row;
         justify-content: space-between;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
         gap:190px;
        
@@ -1150,7 +1154,7 @@ footer div.footer-content ul.contacts li a img {
         padding: 94px 317px 0px 121px;
         display: flex;
         gap: 132px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
     }
 
@@ -1198,7 +1202,7 @@ footer div.footer-content ul.contacts li a img {
     
     main section.section-6 div.section-content-6{
         padding: 178px 344px 0px 121px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
     }
     
@@ -1239,7 +1243,7 @@ footer div.footer-content ul.contacts li a img {
     
     main section.section-7 div.section-content-7{
         padding: 200px 640px 0px 121px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
     }
     
@@ -1265,7 +1269,7 @@ footer div.footer-content ul.contacts li a img {
     
     
     main section.section-8 div.section-content-8 {
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
         padding-bottom: 121px;
     }
@@ -1306,17 +1310,17 @@ footer div.footer-content ul.contacts li a img {
     main section.section-8 div.section-content-8 div.course-program-grid div.module img{
         width: 400px;
     }
-    main section.section-8 div.section-content-8 div.course-program-grid div.module:hover{
+
+    main section.section-8 div.section-content-8 div.course-program-grid div.module:hover {
         transform: translateY(-25px);
     }
-
     
     
     
     /*    SECTION-9    */
     
     main section.section-9 div.section-content-9{
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
         padding: 91px 0px 111px 121px;
     }
@@ -1381,7 +1385,7 @@ footer div.footer-content ul.contacts li a img {
     
     main section.section-10 div.section-content-10{
         padding: 179px 410px 185px 121px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
     }
     
@@ -1435,23 +1439,27 @@ footer div.footer-content ul.contacts li a img {
         flex-direction: column;
         padding: 50px 146px 23px 121px;
         gap: 30px;
-        width: 1280px;
+        max-width: 1440px;
         margin: auto;
-        
+    }
+
+    footer div.footer-content div.main-info-footer {
+        display: flex;
+        gap: 60%
     }
     
-    footer div.footer-content img {
+    footer div.footer-content div.main-info-footer div.icon-and-social img {
         width: 115px;
         height: 68px;
     }
     
-    footer div.footer-content ul.social-media {
+    footer div.footer-content div.main-info-footer div.icon-and-social ul.social-media {
         display: flex;
         gap: 18px;
         margin-bottom: 0px;
     }
     
-    footer div.footer-content ul.social-media li a img {
+    footer div.footer-content div.main-info-footer div.icon-and-social ul.social-media li a img {
         width: 35px;
         height: 35px;
     }
@@ -1459,30 +1467,28 @@ footer div.footer-content ul.contacts li a img {
         margin-top: 146px;
         font-size: 18px;  
         height: 18.25px;
-        position: relative;
+
     }
     
-    footer div.footer-content ul.contacts {
+    footer div.footer-content div.main-info-footer div.contacts ul.contacts {
         justify-content: unset;
         gap: 14px;
-        position: absolute;
-        left: 900px;
         margin-bottom: 0px;
     }
     
-    footer div.footer-content ul.contacts li {
+    footer div.footer-content div.main-info-footer div.contacts ul.contacts li {
         align-items: center;
         gap: 18px;
     }
     
-    footer div.footer-content ul.contacts li img {
+    footer div.footer-content div.main-info-footer div.contacts ul.contacts li img {
         width: 27px;
         height: 27px;
         margin-right: 0px;
         align-self: unset;
     }
 
-    footer div.footer-content ul.contacts li p{
+    footer div.footer-content div.main-info-footer div.contacts ul.contacts li p{
         font-size: 25px;
         line-height: 25px;
     }
