@@ -30,13 +30,14 @@ a {
 
 
 body{
+    overflow-x: hidden;
     font-family: Roboto;
     font-size: 10px;
     font-weight: 400;
     color:black;
 }
 
-/*HEADER*/
+/HEADER/
 header a img{
     width: 52.19px;
     height: 30.75px;
@@ -46,9 +47,9 @@ header{
     padding: 36px 0px 0px 35px;
 }
 
-/*MAIN*/
+/MAIN/
 
-/*section-1*/
+/section-1/
 
 main section.section-1{
     margin: 45px auto 8px auto;
@@ -72,7 +73,7 @@ main section.section-1 div.section-content-1 ul li img{
     height: 9.79px;
 }
 
-/*section-2*/
+/section-2/
 
 main section.section-2 div.section-content-2{
     display: flex;
@@ -111,7 +112,7 @@ main section.section-2 div.section-content-2 #ellips-1 {
     z-index: -1;
 }
 
-/*section-3*/
+/section-3/
 
 main section.section-3 div.section-content-3{
     max-width: 500px;
@@ -143,7 +144,7 @@ main section.section-3 div.section-content-3 span{
     margin-top: 6.92px;
 }
 
-/*section-4*/
+/section-4/
 
 main section.section-4{
     margin: 75.06px auto 0px auto;
@@ -186,7 +187,7 @@ main section.section-4 div.section-content-4 #ellips-2 {
     margin-top: -31px;
 }
 
-/*section-5*/
+/section-5/
 
 main section.section-5{
     margin-top: 45.71px;
@@ -216,7 +217,7 @@ main section.section-5 div.section-content-5 ul li p:first-child{
     line-height: 16px;
 }
 
-/*section-6*/
+/section-6/
 
 main section.section-6{
     margin-top: 68px;  
@@ -247,7 +248,7 @@ main section.section-6 div.section-content-6 ul li p:first-child{
     color: #1E4681;
 }
 
-/*section-7*/
+/section-7/
 
 main section.section-7{
     margin-top: 73px;
@@ -276,7 +277,7 @@ main section.section-7 div.section-content-7 ul li{
     line-height: 18px;
 }
 
-/*section-8*/
+/section-8/
 
 
 main section.section-8 div.section-content-8 h2{
@@ -302,11 +303,20 @@ main section.section-8 div.section-content-8 div.course-program-grid div.module{
     padding-bottom: 10.72px;
     width: 186px;
     box-shadow: 0.5791667103767395px 0.5791667103767395px 8.6875px 0px #00000040;
+    transition: transform 0.5s;
+    transition: 0.5s;
 }
 
 main section.section-8 div.section-content-8 div.course-program-grid div.module img{
     width: 186px;
 }
+main section.section-8 div.section-content-8 div.course-program-grid div.module{
+    transform: translateY(-10px);
+    -webkit-box-shadow:10px 10px 100px -25px rgb(0,0,0,0.75);
+    -moz-box-shadow:10px 10px 100px -25px rgb(0,0,0,0.75);
+    box-shadow: 10px 10px 100px -25px rgb(0,0,0,0.75);
+}
+
 
 
 main section.section-8 div.section-content-8 div.course-program-grid div.module div h3{
@@ -323,7 +333,7 @@ main section.section-8 div.section-content-8 div.course-program-grid div.module 
     margin-left: 8.85px;
 }
 
-/*section-9*/
+/section-9/
 
 main section.section-9{
     margin-top: 47.16px;
@@ -377,7 +387,7 @@ main section.section-9 div.section-content-9 div.review div.reviewer div a img{
 
 }
 
-/*section-10*/
+/section-10/
 
 main section.section-10{
     background: #9DC9C8;
@@ -425,7 +435,7 @@ main section.section-10 div.section-content-10 div.needs-block div p:last-child{
 
 }
 
-/*footer*/
+/footer/
 
 footer{
     background-color: #000000;
@@ -512,7 +522,7 @@ header a img {
 /*       SECTION-1          */
 
 main section.section-1 {
-    width: 100%;
+
     margin:56px auto 0px 70px;
 }
 
@@ -1296,6 +1306,10 @@ footer div.footer-content ul.contacts li a img {
     main section.section-8 div.section-content-8 div.course-program-grid div.module img{
         width: 400px;
     }
+    main section.section-8 div.section-content-8 div.course-program-grid div.module:hover{
+        transform: translateY(-25px);
+    }
+
     
     
     
@@ -1452,7 +1466,7 @@ footer div.footer-content ul.contacts li a img {
         justify-content: unset;
         gap: 14px;
         position: absolute;
-        left: 854px;
+        left: 900px;
         margin-bottom: 0px;
     }
     
